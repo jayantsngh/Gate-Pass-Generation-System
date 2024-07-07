@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral ;
+    font-family: Arial;
+}
+.container
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 1200px;
+    padding: 40px 40px;
+    box-sizing: content-box ;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #b5ef40;
+    text-align: center;
+}
+.container 
+{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: black;
+}
+.container input
+{
+    width: 50%;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #a640ef;
+    border-radius: 10px;
+}
+.container select 
+{
+    height: 50%;
+    width: 50%;
+    margin-inline-start: 10px;
+    padding: 10px;
+    border: 1px solid #a640ef;
+    border-radius: 10px;
+}
+.container input[type="submit"]
+{
+    align-self: center;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 300px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.container input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626 ;
+}
+.container input[type="print"]:hover
+{
+    background: #efed40;
+    color: #262626 ;
+}
+.container input[type="print"]
+{
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn-field
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button
+{
+    font-size: 16px;
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 1s;
+    padding-bottom: 0%;
+}
+input[type="time"] 
+{
+    width: 150px;
+    margin-right: 20px;
+  }
+  img 
+{
+    display: flex;
+    justify-content: left;
+    max-width: 100%;
+    height: auto;
+  }
